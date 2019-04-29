@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.grid-item { width: 200px;background-color: #ff00ff; }
+		.grid-item--width2 { width: 400px;background-color: #f00; }
+
+	</style>
+</head>
+<body>
+
+
+	<div class="grid">
+		<div class="grid-item">item1</div>
+		<div class="grid-item grid-item--width2">item2</div>
+		<div class="grid-item">item3</div>
+		<div class="grid-item">item4</div>
+		<div class="grid-item">item5</div>
+		<div class="grid-item">item6</div>
+	</div>
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+
+	<script>
+		$('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 200
+});
+</script>
+</body>
+</html>	

@@ -1,0 +1,102 @@
+
+
+
+
+
+
+/*右下角要改成CSS*/
+/*存檔的時候名稱改成標籤名稱,記得要同一個資料夾*/
+.container{
+		display: flex;
+		}
+@media only screen and (max-width: 767px) {
+		.container{
+			flex-direction: column;
+		}
+}
+		.left{
+			width: 50%;
+		}
+@media only screen and (max-width: 767px){
+			.left{
+			width: 100%;
+		}
+
+		.right{
+			background-color: #ccc;
+			width: 50%;
+			
+		}
+@media only screen and (max-width: 767px){
+			.right{
+			width: 100%;
+		}
+		
+}
+
+
+/*@media only screen and (min-width: 768px) and (max-width: 1025px){*/
+
+	
+		.userinfo h1 .userinfo h2{
+			text-align:  center;
+			font-size: 18px solid #f00;
+			
+
+		}
+		.userinfo h2{
+			border-bottom: 1px solid #333;
+		}
+				
+		}
+		.userinfo .img{
+		   height: 100px;
+		   width: 100px;
+		   border-radius: 100%;
+		   overflow: hidden;
+		   
+		  }
+		.userinfo img{
+		   height: 100%;
+		   width: 100%;
+
+		  }
+		}
+		.contact{
+			text-align: center;
+		}
+		.learnhistory h3{
+			text-align: center;
+			border-bottom: 1px solid #333;
+			font-size: 24px;
+			width: 80%
+			padding: 10px 0;
+			margin-left: 10%;
+			margin-right: 20px;
+		}
+		.learnhistory ul li{
+			font-size: 18px
+			margin: 0;
+		}
+		.learnhistory ul li p{
+			font-size: 16px;
+			margin: 0;
+		}
+		.languageskill .outer{
+			width: 300px;
+			height: 32px;
+			background-color: #fff;
+			border-radius: 15px;
+			border: 1px solid #000;
+			position: relative;
+		}
+		.languageskill .insite{
+			width: 80%;
+			height: 24px;
+			background-color: #f00;
+			border-radius: 12px;
+			border: 1px solid #fff;
+			position: absolute;
+			top: 2px;
+			left: 2px;
+		}

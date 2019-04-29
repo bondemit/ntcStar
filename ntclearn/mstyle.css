@@ -1,0 +1,144 @@
+
+.container{
+    display: flex;
+    justify-content:center;
+}
+@media only screen and (max-width: 767px)
+{
+    .container{
+        flex-direction: column;
+
+    }
+}
+
+.left, .right{
+    width: 50%;
+    border:0px;
+    padding: 0%;
+    margin: 0%;
+}
+@media only screen and (max-width:767px)
+{
+    .left{
+        width:100%;
+    }
+    .right{
+        background-color: #fff;
+        width: 100%;
+    }
+}
+
+
+
+
+
+.photo{
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid #550;;
+    padding: 0%;
+    margin: 0%;
+}
+.photo .img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-image: url("king.jpeg"); 
+    background-repeat: no-repeat;
+     background-size: cover; 
+    background-position: 50% 50%;
+}
+.photo img{
+    height: 100%;
+    width:  300px;
+}
+.contact{
+    width: 100%;
+    height: 300px;
+    border:0px;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.education{
+    background-color: rgb(17, 148, 56);
+    width: 100%0;
+    height: 250px;
+    border:0px;
+    padding: 0%;
+    margin: 0%;
+    border-bottom:1px solid rgb(226, 14, 78);
+}
+.workresume{
+    background-color: rgb(17, 69, 148);
+    width: 100%0;
+    height: 250px;
+    border:0px;
+    padding: 0%;
+    margin: 0%;
+    border-bottom:1px solid rgb(226, 14, 78);
+}
+.hobby{
+    background-color: rgba(214, 226, 38, 0.486);
+    width: 100%0;
+    height: 250px;
+    border:0px;
+    padding: 0%;
+    margin: 0%;
+    border-bottom:1px solid rgb(226, 14, 78);
+}
+
+
+.langurage p{
+    color: #010;
+    margin: 0 0 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.langurage h4{
+    text-align: center;
+    border-bottom: 1px solid #550;
+    font-size: 24px;
+    padding:10px 0;
+    width: 80%;
+    margin-left: 10%;
+}
+.langurage span{
+    margin:0 0 0 40px ;
+}
+
+.skill .outer{
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #000;
+    position:relative
+
+}
+.skill .inside{
+    width: 80%;
+    height: 24px;
+    background-color: #ff0;
+    border-radius: 13px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.skill .inside2{
+    width: 40%;
+    height: 24px;
+    background-color: #ff0;
+    border-radius: 13px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+@media only screen and(min-width: 768px) and(max-width: 1025px) 

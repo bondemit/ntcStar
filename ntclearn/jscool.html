@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<!-- <style>
+		* {
+			box-sizing: border-box;
+		}
+		html, body {
+			width: 100%;
+			display: flex;
+			/*   justify-content: center; */
+			align-items: center;
+			flex-direction: column;
+			padding: 0 20px;
+		}
+		h1 {
+			margin-bottom: 40px;
+			font-size: 24px;
+		}
+		.btn {
+			display: inline-block;
+			padding: 10px 15px;
+			background-color: #2f8af9;
+			color: #fff;
+			margin-bottom: 20px;
+			cursor: pointer;
+		}
+		.btn.red {
+			background-color: #f24;
+		}
+
+		label {
+			padding: 10px;
+			font-size: 18px;
+			border: 8px solid #5ec7ed;
+			background-color: #87efff;
+			margin-bottom: 10px;
+		}
+		input {
+			font-size: 18px;
+		}
+	</style> -->
+</head>
+<body>
+
+	<!-- <h1>練習13. 請使用jQuery綁定事件，在輸入框輸入項目內容，在按下加入時，項目內容加入清單；而按下移除最後一項按鈕，則把清單中最後一個項目移除</h1>
+
+	<label for="">
+		內容：<input id="input-1" type="text"/>
+	</label>
+	<div class="btn-box">
+		<div id="btn-1" class="btn">加入</div> <div id="btn-2" class="btn red">移除最後一項</div>
+	</div>
+
+	<ul id="list">
+		<li>洗衣服</li>
+		<li>煮飯</li>
+	</ul> -->
+
+	<p>hello:<input type="text" id="datepicker"></p>
+
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+		$(function(){
+			$("#datepicker").datepicker();
+		});
+	</script>
+	<!-- <script src="jscool.js"></script> -->
+</body>
+</html>
